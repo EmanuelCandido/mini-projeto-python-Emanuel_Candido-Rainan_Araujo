@@ -89,7 +89,7 @@ Aprovados e reprovados
 
 ### 💾 Estruturas de dados utilizadas
 
-`dict` → dicionário principal com a matrícula como chave e a tupla de notas como valor.
+```dict``` → dicionário principal com a matrícula como chave e a tupla de notas como valor.
 
 `list` → lista temporária para coletar as notas antes de transformá-las em tupla.
 
@@ -117,14 +117,22 @@ Ana - Média: 8.16
 
 ## 📚 Conceitos aplicados nos projetos
 
-Estruturas de repetição (`while`, `for`)
-
-Estruturas de dados (`list`, `dict`, `set`, `tuple`)
-
-Condicionais (`if`, `elif`, `else`)
-
-Funções de entrada e saída (`input()`, `print()`)
-
+#### Estruturas de repetição 
+```Python
+while, for
+```
+#### Estruturas de dados 
+```Python
+list, dict, set, tuple
+```
+#### Condicionais 
+```Python
+if, elif, else
+```
+#### Funções de entrada e saída
+```Python
+input(), print()
+```
 Validação de dados e tratamento de duplicidades
 
 Organização lógica e uso de menus interativos
