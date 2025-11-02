@@ -120,20 +120,20 @@ Ana - Média: 8.16
 
 #### Estruturas de repetição 
 ```Python
-while, for
+while , for
 ```
 #### Estruturas de dados 
 ```Python
-list, dict, set, tuple
+list , dict , set , tuple
 ```
 #### Condicionais 
 ```Python
-if, elif, else
+if , elif , else
 ```
 #### Funções de entrada e saída
 ```Python
-input(), print()
-```
+input() , print()
+``` 
 Validação de dados e tratamento de duplicidades
 
 Organização lógica e uso de menus interativos
