@@ -22,7 +22,7 @@ while sair == "ficar":
       while Aluno_validado == False:
 
         if Aluno in Nomes:
-          print('\nEsse aluno já foi registrado!')
+          print('\n⚠️ Esse aluno já foi registrado!')
           Aluno = input("\nDigite o nome de outro aluno: ")
         else:
           Nomes.add(Aluno)
@@ -34,14 +34,14 @@ while sair == "ficar":
       while Matricula_validada == False:
 
         if Matricula in Matriculas:
-          print('\nEssa Matricula já foi registrada!')
+          print('\n⚠️ Essa Matricula já foi registrada!')
           Matricula = int(input("\nNova matricula(Apenas numeros): "))
         else:
           Matriculas.add(Matricula)
           Matricula_validada = True
 
       AlunoMatricula[Aluno] = Matricula
-      print("\nAluno Cadastrado com Sucesso!")
+      print("\n✅ Aluno Cadastrado com Sucesso!")
 
 
     elif usuario == 2:
@@ -72,7 +72,7 @@ while sair == "ficar":
 
         MatriculaNota[Matricula] = tuple(Lista)
 
-      print("\nNotas Cadastradas com Sucesso!")
+      print("\n✅ Notas Cadastradas com Sucesso!")
 
 
     elif usuario == 3:
@@ -88,7 +88,7 @@ while sair == "ficar":
           print(f"\nAluno: {aluno} | Notas não registradas.")
 
       if not Nomes:
-        print('\nBanco de dados vazio...')
+        print('\n❌ Banco de dados vazio...')
 
 
     elif usuario == 4:
@@ -113,7 +113,7 @@ while sair == "ficar":
                 print(f"\nAluno: {Aluno} | Matrícula: {matricula} | Notas não registradas.")
 
         else:
-            print("\nAluno não está no banco de dados!")
+            print("\n❌ Aluno não está no banco de dados!")
 
 
       if registro == 2:
@@ -137,7 +137,7 @@ while sair == "ficar":
                 break
 
         if not encontrado:
-            print("\nAluno não está no banco de dados!")
+            print("\n❌ Aluno não está no banco de dados!")
 
 
     elif usuario == 5:
@@ -157,7 +157,7 @@ while sair == "ficar":
             print(f"\nAluno: {aluno} REPROVADO!!")
 
       if not encontrado:
-            print("\nBanco de dados vazio!")
+            print("\n❌ Banco de dados vazio!")
 
 
     elif usuario == 6:
@@ -172,7 +172,7 @@ while sair == "ficar":
           print(f"\nAluno: {aluno} | Matrícula: {matricula}")
 
         if not Nomes:
-          print('\nBanco de dados vazio...')
+          print('\n❌ Banco de dados vazio...')
 
       elif registro == 2:
 
@@ -187,7 +187,7 @@ while sair == "ficar":
             print(f"\nAluno: {aluno} | Sem notas")
 
         if not Nomes:
-          print('\nBanco de dados vazio...')
+          print('\n❌ Banco de dados vazio...')
 
       elif registro == 3:
 
@@ -206,7 +206,7 @@ while sair == "ficar":
               print(f"\nAluno: {aluno} REPROVADO!!")
 
         if not encontrado:
-            print("\nBanco de dados vazio!")
+            print("\n❌ Banco de dados vazio!")
 
 
     elif usuario == 0:
@@ -214,4 +214,4 @@ while sair == "ficar":
       
 
   except ValueError:
-    print('\nValor invalido!')
+    print('\n❌ Valor invalido!')
