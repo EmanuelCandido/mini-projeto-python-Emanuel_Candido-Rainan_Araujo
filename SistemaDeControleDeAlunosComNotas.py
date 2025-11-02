@@ -65,7 +65,7 @@ while sair == "ficar":
 
         Matricula = int(input("\nMatricula: "))
 
-        for i in range(1,5):
+        for i in range(1,4):
 
           Nota = float(input(f"Nota {i}: "))
           Lista.append(Nota)
