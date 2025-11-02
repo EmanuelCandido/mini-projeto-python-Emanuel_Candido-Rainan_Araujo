@@ -1,13 +1,13 @@
 # mini-projeto-python-Emanuel_Candido-Rainan_Araujo
 Este repositório contém dois sistemas desenvolvidos em Python como parte da disciplina Programação I, do curso de Bacharelado em Engenharia de Software. Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
 
-🐍 Mini Projetos em Python — Controle de Produtos e Alunos
+# 🐍 Mini Projetos em Python — Controle de Produtos e Alunos
 
 Este repositório contém dois sistemas desenvolvidos em Python como parte da disciplina Programação I, do curso de Bacharelado em Engenharia de Software.
 Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
 
-🛒 Projeto 1 – Sistema de Cadastro de Produtos (Mini Controle de Estoque)
-🧠 Descrição
+# 🛒 Projeto 1 – Sistema de Cadastro de Produtos (Mini Controle de Estoque)
+##🧠 Descrição
 
 O sistema foi desenvolvido para auxiliar uma pequena loja no controle de seus produtos.
 Ele permite cadastrar, listar, buscar, atualizar e excluir produtos, garantindo que não existam códigos duplicados e que todas as informações sejam armazenadas de forma organizada.
@@ -15,7 +15,7 @@ Ele permite cadastrar, listar, buscar, atualizar e excluir produtos, garantindo 
 Cada produto é representado por um dicionário, e todos os produtos são armazenados em uma lista.
 As categorias são definidas em uma tupla, e os códigos já cadastrados são controlados através de um set, evitando repetições.
 
-⚙️ Funcionalidades
+##⚙️ Funcionalidades
 
 1 - Cadastrar produto: adiciona um novo produto com código, nome, preço, quantidade e categoria.
 
@@ -29,7 +29,7 @@ As categorias são definidas em uma tupla, e os códigos já cadastrados são co
 
 0 - Sair: encerra o sistema.
 
-💾 Estruturas de dados utilizadas
+##💾 Estruturas de dados utilizadas
 
 list → para armazenar todos os produtos.
 
@@ -39,7 +39,8 @@ tuple → para armazenar as categorias disponíveis.
 
 set → para registrar códigos já utilizados, evitando duplicatas.
 
-💬 Exemplo de uso
+##💬 Exemplo de uso
+'''Python
 -------Bem-vindo ao Sistema de Cadastro de Produtos----------
 
 1 - Cadastrar Produto
@@ -48,7 +49,7 @@ set → para registrar códigos já utilizados, evitando duplicatas.
 4 - Atualizar Produto
 5 - Excluir Produto
 0 - Sair
-
+'''
 O que você quer fazer no sistema? 1
 Qual o código do produto? 101
 Qual o nome do produto? Arroz
