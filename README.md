@@ -48,7 +48,7 @@ As categorias são definidas em uma tupla, e os códigos já cadastrados são co
 5 - Excluir Produto
 0 - Sair
 
-```
+
 O que você quer fazer no sistema? 1
 Qual o código do produto? 101
 Qual o nome do produto? Arroz
@@ -56,6 +56,7 @@ Qual o preço do produto? 7.99
 Qual a quantidade do produto? 10
 Qual a categoria do produto (1-5)? 1
 ✅ Produto cadastrado com sucesso!
+```
 
 ## 🎓 Projeto 2 – Sistema de Controle de Alunos e Notas
 ### 🧠 Descrição
