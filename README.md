@@ -29,13 +29,13 @@ As categorias são definidas em uma tupla, e os códigos já cadastrados são co
 
 ### 💾 Estruturas de dados utilizadas
 
-list → para armazenar todos os produtos.
+`list` → para armazenar todos os produtos.
 
-dict → para guardar as informações de cada produto (código, nome, preço, quantidade).
+`dict` → para guardar as informações de cada produto (código, nome, preço, quantidade).
 
-tuple → para armazenar as categorias disponíveis.
+`tuple` → para armazenar as categorias disponíveis.
 
-set → para registrar códigos já utilizados, evitando duplicatas.
+`set` → para registrar códigos já utilizados, evitando duplicatas.
 
 ### 💬 Exemplo de uso
 ```Python
@@ -89,13 +89,13 @@ Aprovados e reprovados
 
 ### 💾 Estruturas de dados utilizadas
 
-dict → dicionário principal com a matrícula como chave e a tupla de notas como valor.
+`dict` → dicionário principal com a matrícula como chave e a tupla de notas como valor.
 
-list → lista temporária para coletar as notas antes de transformá-las em tupla.
+`list` → lista temporária para coletar as notas antes de transformá-las em tupla.
 
-set → armazena os nomes dos alunos cadastrados, evitando duplicações.
+`set` → armazena os nomes dos alunos cadastrados, evitando duplicações.
 
-tuple → usada para guardar as notas de cada aluno de forma imutável.
+`tuple` → usada para guardar as notas de cada aluno de forma imutável.
 
 ### 💬 Exemplo de uso
 ```Python
@@ -117,13 +117,13 @@ Ana - Média: 8.16
 
 ## 📚 Conceitos aplicados nos projetos
 
-Estruturas de repetição (while, for)
+Estruturas de repetição (`while`, `for`)
 
-Estruturas de dados (list, dict, set, tuple)
+Estruturas de dados (`list`, `dict`, `set`, `tuple`)
 
-Condicionais (if, elif, else)
+Condicionais (`if`, `elif`, `else`)
 
-Funções de entrada e saída (input(), print())
+Funções de entrada e saída (`input()`, `print()`)
 
 Validação de dados e tratamento de duplicidades
 
