@@ -7,7 +7,7 @@ Este repositório contém dois sistemas desenvolvidos em Python como parte da di
 Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
 
 # 🛒 Projeto 1 – Sistema de Cadastro de Produtos (Mini Controle de Estoque)
-##🧠 Descrição
+## 🧠 Descrição
 
 O sistema foi desenvolvido para auxiliar uma pequena loja no controle de seus produtos.
 Ele permite cadastrar, listar, buscar, atualizar e excluir produtos, garantindo que não existam códigos duplicados e que todas as informações sejam armazenadas de forma organizada.
@@ -15,7 +15,7 @@ Ele permite cadastrar, listar, buscar, atualizar e excluir produtos, garantindo 
 Cada produto é representado por um dicionário, e todos os produtos são armazenados em uma lista.
 As categorias são definidas em uma tupla, e os códigos já cadastrados são controlados através de um set, evitando repetições.
 
-##⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 
 1 - Cadastrar produto: adiciona um novo produto com código, nome, preço, quantidade e categoria.
 
@@ -29,7 +29,7 @@ As categorias são definidas em uma tupla, e os códigos já cadastrados são co
 
 0 - Sair: encerra o sistema.
 
-##💾 Estruturas de dados utilizadas
+## 💾 Estruturas de dados utilizadas
 
 list → para armazenar todos os produtos.
 
@@ -39,8 +39,8 @@ tuple → para armazenar as categorias disponíveis.
 
 set → para registrar códigos já utilizados, evitando duplicatas.
 
-##💬 Exemplo de uso
-'''Python
+## 💬 Exemplo de uso
+```Python
 -------Bem-vindo ao Sistema de Cadastro de Produtos----------
 
 1 - Cadastrar Produto
@@ -49,7 +49,8 @@ set → para registrar códigos já utilizados, evitando duplicatas.
 4 - Atualizar Produto
 5 - Excluir Produto
 0 - Sair
-'''
+
+```
 O que você quer fazer no sistema? 1
 Qual o código do produto? 101
 Qual o nome do produto? Arroz
@@ -58,15 +59,15 @@ Qual a quantidade do produto? 10
 Qual a categoria do produto (1-5)? 1
 ✅ Produto cadastrado com sucesso!
 
-🎓 Projeto 2 – Sistema de Controle de Alunos e Notas
-🧠 Descrição
+# 🎓 Projeto 2 – Sistema de Controle de Alunos e Notas
+## 🧠 Descrição
 
 O segundo sistema foi desenvolvido para uma escola fictícia e tem como objetivo registrar alunos, armazenar notas e calcular médias, ajudando professores a acompanhar o desempenho dos estudantes.
 
 Cada aluno é identificado por uma matrícula (chave) e possui suas notas armazenadas em uma tupla dentro de um dicionário principal.
 O programa permite consultar médias, identificar aprovados e reprovados, e gerar relatórios personalizados.
 
-⚙️ Funcionalidades
+# ⚙️ Funcionalidades
 
 1 - Cadastrar aluno: registra um novo aluno com nome e matrícula.
 
@@ -88,7 +89,7 @@ Aprovados e reprovados
 
 0 - Sair: encerra o sistema.
 
-💾 Estruturas de dados utilizadas
+## 💾 Estruturas de dados utilizadas
 
 dict → dicionário principal com a matrícula como chave e a tupla de notas como valor.
 
@@ -98,7 +99,8 @@ set → armazena os nomes dos alunos cadastrados, evitando duplicações.
 
 tuple → usada para guardar as notas de cada aluno de forma imutável.
 
-💬 Exemplo de uso
+## 💬 Exemplo de uso
+```Python
 1 - Cadastrar aluno
 Digite o nome: Ana
 Digite a matrícula: 2025A
@@ -113,8 +115,9 @@ Notas registradas com sucesso!
 
 3 - Listar alunos e médias
 Ana - Média: 8.16
+```
 
-📚 Conceitos aplicados nos projetos
+# 📚 Conceitos aplicados nos projetos
 
 Estruturas de repetição (while, for)
 
