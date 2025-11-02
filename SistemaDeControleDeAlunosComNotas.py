@@ -83,9 +83,9 @@ while sair == "ficar":
 
           notas = MatriculaNota[matricula]
           media = sum(notas) / len(notas)
-          print(f"\nAluno: {aluno} | Matrícula: {matricula} | Notas: {notas} | Média: {media:.2f}")
+          print(f"\nAluno: {aluno} | Média: {media:.2f}")
         else:
-          print(f"\nAluno: {aluno} | Matrícula: {matricula} | Notas não registradas.")
+          print(f"\nAluno: {aluno} | Notas não registradas.")
 
       if not Nomes:
         print('\nBanco de dados vazio...')
