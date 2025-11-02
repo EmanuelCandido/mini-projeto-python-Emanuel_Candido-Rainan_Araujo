@@ -54,7 +54,7 @@ while sair == "ficar":
 
         Aluno = input("\nNome do Aluno: ")
 
-        for i in range(1,5):
+        for i in range(1,4):
 
           Nota = float(input(f"Nota {i}: "))
           Lista.append(Nota)
