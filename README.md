@@ -4,6 +4,7 @@ Este repositório contém dois sistemas desenvolvidos em Python como parte da di
 Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
 
 # 🛒 Projeto 1 – Sistema de Cadastro de Produtos (Mini Controle de Estoque)
+
 ## 🧠 Descrição
 
 O sistema foi desenvolvido para auxiliar uma pequena loja no controle de seus produtos.
