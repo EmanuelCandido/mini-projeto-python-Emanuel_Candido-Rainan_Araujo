@@ -1,7 +1,4 @@
-# mini-projeto-python-Emanuel_Candido-Rainan_Araujo
-Este repositório contém dois sistemas desenvolvidos em Python como parte da disciplina Programação I, do curso de Bacharelado em Engenharia de Software. Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
-
-# 🐍 Mini Projetos em Python — Controle de Produtos e Alunos
+#  💻Mini Projetos em Python — Controle de Produtos e Alunos
 
 Este repositório contém dois sistemas desenvolvidos em Python como parte da disciplina Programação I, do curso de Bacharelado em Engenharia de Software.
 Os projetos têm como objetivo aplicar os conceitos de estruturas de repetição e estruturas de dados em programas funcionais, interativos e bem estruturados.
@@ -103,11 +100,11 @@ tuple → usada para guardar as notas de cada aluno de forma imutável.
 ```Python
 1 - Cadastrar aluno
 Digite o nome: Ana
-Digite a matrícula: 2025A
+Digite a matrícula: 2025
 Aluno cadastrado com sucesso!
 
 2 - Registrar notas
-Digite a matrícula do aluno: 2025A
+Digite a matrícula do aluno: 2025
 Digite a primeira nota: 8
 Digite a segunda nota: 7.5
 Digite a terceira nota: 9
@@ -130,3 +127,8 @@ Funções de entrada e saída (input(), print())
 Validação de dados e tratamento de duplicidades
 
 Organização lógica e uso de menus interativos
+
+# 🧑‍💻 Autores
+
+Projeto desenvolvido por [Emanuel Cândido da Silva Lima] e [Rainan Araujo],
+como parte da avaliação prática para a disciplina Programação I – Python.
